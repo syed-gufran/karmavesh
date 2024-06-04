@@ -294,10 +294,13 @@ body.dark-theme {
 .home__container {
   row-gap: 2rem;
   padding-top: 1rem;
+  align-self: center;
 }
 
 .home__data {
+  
   text-align: center;
+  
 }
 
 .home__title {
@@ -312,11 +315,11 @@ body.dark-theme {
 
 .home__title-box {
   display: flex;
-  justify-content: center;
   column-gap: 0.75rem;
 }
 
 .home__title-box div {
+  justify-content:space-around;
   background: var(--gradient-color);
   padding: 0.25rem 0.75rem;
   border-radius: 0.5rem;
